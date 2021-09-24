@@ -1,0 +1,35 @@
+_id: req_ea05ffe6e7de412e91657f480c4f4971
+type: Request
+parentId: fld_fce52b7e53e1471ba7544f277052af37
+modified: 1632514562204
+created: 1632514562204
+url: http://localhost:{{port}}/api/auth/login
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre_usuario":"jhonatan_flores",
+    	"contrasenia":"Geo12345",
+    	"usuario_entidad":2
+    }
+parameters: []
+headers:
+  - id: pair_659caac3f2bd4968a6634577729d75c3
+    name: x-token
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_9db5e3f7155f41ee803c3ed00161564a
+authentication: {}
+metaSortKey: -1626378215571
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

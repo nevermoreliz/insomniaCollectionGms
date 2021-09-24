@@ -1,0 +1,26 @@
+_id: req_bbebe280f7c94b96970ed45bbc94b07c
+type: Request
+parentId: fld_1efc20f84b524f6b83c9535f1e6d3b0a
+modified: 1632514569716
+created: 1632514569716
+url: http://localhost:{{port}}/api/personas/1
+name: obtener_personas
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7226414c23e04c3d9df6046dcd7edc0f
+authentication: {}
+metaSortKey: -1626320410630
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

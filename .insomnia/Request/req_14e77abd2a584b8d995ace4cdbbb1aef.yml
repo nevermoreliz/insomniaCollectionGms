@@ -1,0 +1,21 @@
+_id: req_14e77abd2a584b8d995ace4cdbbb1aef
+type: Request
+parentId: fld_53854d987045426d8d942e3fbbb83c1f
+modified: 1632514539780
+created: 1632514539780
+url: http://localhost:{{port}}/api/seguimiento/seg-correspodencia/intrucciones
+name: listar instrucciones
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627650466732.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

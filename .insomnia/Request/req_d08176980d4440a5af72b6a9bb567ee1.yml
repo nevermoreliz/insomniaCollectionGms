@@ -1,0 +1,48 @@
+_id: req_d08176980d4440a5af72b6a9bb567ee1
+type: Request
+parentId: fld_e51616f89bc5469ba9f01c1d5c7d8be3
+modified: 1632514539773
+created: 1632514539773
+url: http://localhost:{{port}}/api/seguimiento/generar-cite
+name: generar_cite_post_externo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ent_id":2,
+    	"are_id":null,
+    	"tipoCorrespondencia" : 2,
+      "tipoDocumento" : 2,
+      "documentoEspecifico" :5,
+      "usu_id" :  1,
+    	"usu_id_cargo":9,
+    	"usuIdDestino":null,
+    	"cargoUsuDestino":null,
+    	"usuario_externo": "jhonatan flores",
+    	"cargo_externo":"dir. departamento de tic",
+      "vias" : [],
+    	"generacite":true,
+    	"usuExternoRemitente":true,
+    	"referencia":"referencia",
+    	"EntidadesRestantes":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc6de61ab53b4cb7a427bb6a229815bf
+  - id: pair_15bd33aaa1544985b1698b9633c3e424
+    name: x-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW50aWRhZF9pZCI6MiwiaWF0IjoxNjMyNDE1NTY1LCJleHAiOjE2MzI0Mjk5NjV9.7e6KapJU6b7ZDT5ZUywOULYBtKugL-RMLtM34kDjPcY
+    description: ""
+authentication: {}
+metaSortKey: -1627552792392.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

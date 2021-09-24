@@ -1,0 +1,30 @@
+_id: req_8f5ab807045c4714a5f29ba10e752c8a
+type: Request
+parentId: fld_fcaecb65001e4705b004344d92503656
+modified: 1632514547077
+created: 1632514547077
+url: http://localhost:{{port}}/api/entidades/listar-resto-entidades/1
+name: listarRestoDeEntidades
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c55cb4d471474475aa596ba5860da2fd
+  - id: pair_27becf1f39584644b412f5f730d727a4
+    name: x-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW50aWRhZF9pZCI6MiwiaWF0IjoxNjMyNDA2MDA0LCJleHAiOjE2MzI0MjA0MDR9.WNIg4jjgh0cDtenYlVo8Nx8zhRRGg8y9zgwDOSg68aQ
+    description: ""
+authentication: {}
+metaSortKey: -1627283936262.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

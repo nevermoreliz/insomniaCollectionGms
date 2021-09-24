@@ -1,0 +1,30 @@
+_id: req_078e181af31b4344934806c932aaab91
+type: Request
+parentId: fld_e51616f89bc5469ba9f01c1d5c7d8be3
+modified: 1632514539769
+created: 1632514539769
+url: http://localhost:{{port}}/api/seguimiento/generar-cite/seguimiento-correspondencia/enviados
+name: listar_seguimiento_correspondencia
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c163caae53204c1ca9850d7a12b9c69e
+  - id: pair_1ac51dfe742f4052aaed947199cc859c
+    name: x-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW50aWRhZF9pZCI6MiwiaWF0IjoxNjMxMzM3NDc0LCJleHAiOjE2MzEzNTE4NzR9.7fcoZkRR02uJV4iQnHmFk1X1rfD1MZ8nvnrpm2TRGOY
+    description: ""
+authentication: {}
+metaSortKey: -1627596203210.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

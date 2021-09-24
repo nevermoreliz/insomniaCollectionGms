@@ -1,0 +1,40 @@
+_id: req_f3f0992365e54926b42526546c0992f8
+type: Request
+parentId: fld_e51616f89bc5469ba9f01c1d5c7d8be3
+modified: 1632514539753
+created: 1632514539753
+url: http://localhost:{{port}}/api/seguimiento/generar-cite
+name: generar_cite_post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ent_id":2,
+    	"are_id":null,
+    	"tipoCorrespondencia" : 1,
+      "tipoDocumento" : 1,
+      "documentoEspecifico" :1,
+      "usu_id" :  2,
+      "usuIdDestino" : 1,
+      "vias" : []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc6de61ab53b4cb7a427bb6a229815bf
+  - id: pair_15bd33aaa1544985b1698b9633c3e424
+    name: x-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW50aWRhZF9pZCI6MiwiaWF0IjoxNjMxMjc3NzQyLCJleHAiOjE2MzEyOTIxNDJ9.FwQN1bbgX6eI27B3EDOVXUZM1UkXd_nH3kgLJosDlls
+    description: ""
+authentication: {}
+metaSortKey: -1627574497801.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

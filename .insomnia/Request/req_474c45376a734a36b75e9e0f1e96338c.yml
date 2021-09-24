@@ -1,0 +1,37 @@
+_id: req_474c45376a734a36b75e9e0f1e96338c
+type: Request
+parentId: fld_1efc20f84b524f6b83c9535f1e6d3b0a
+modified: 1632514569710
+created: 1632514569710
+url: http://localhost:{{port}}/api/personas/
+name: nueva_persona
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre":"jhonatan edgar",
+      "paterno":"flores",
+      "materno":"lopez",
+      "ci":"9959006",
+      "expedido":"lp",
+      "fecha_nacimiento":"1996-02-22",
+      "email":"b.lizzars.jf@gmail.com",
+      "nro_celular":"75875471",
+    	"user_created": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7226414c23e04c3d9df6046dcd7edc0f
+authentication: {}
+metaSortKey: -1626368012980
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

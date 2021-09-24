@@ -1,0 +1,41 @@
+_id: req_93289874e2284f9c8a2b7041c7abcd82
+type: Request
+parentId: fld_53854d987045426d8d942e3fbbb83c1f
+modified: 1632514539784
+created: 1632514539784
+url: http://localhost:{{port}}/api/seguimiento/seg-correspodencia/recibir
+name: nuevo seguimiento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sec_id":8,
+    	"usuario_emisor":1,
+      "usuario_emisor_cargo":9,
+      "usuario_receptor":2, 
+      "usuario_receptor_cargo":2,
+      "cor_id":null,
+      "hr_id": 1,
+      "ins_id":2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3dbe9bf09bb6413f8eb5d08ce503dd2e
+  - id: pair_74c2afd324ac49768a13a41b7b100fc4
+    name: x-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW50aWRhZF9pZCI6MiwiaWF0IjoxNjMwOTcxOTA3LCJleHAiOjE2MzA5ODYzMDd9.De1Y5bPxL4LreY4mD7hKhASfar8q1UfROQ0N8vBbycQ
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1627645040380.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

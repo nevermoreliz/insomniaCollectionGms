@@ -1,0 +1,21 @@
+_id: req_552f12216b4d4ace93ce01ea602e4747
+type: Request
+parentId: fld_e51616f89bc5469ba9f01c1d5c7d8be3
+modified: 1632514539750
+created: 1632514539750
+url: http://localhost:{{port}}/api/seguimiento/generar-cite/listar-documentos-especificos/1/tipo-documento
+name: listar_documentos_especificos_por _tipo_documento
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627487676166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

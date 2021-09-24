@@ -1,0 +1,21 @@
+_id: req_ea426810d3cb4f70bcfc74ca8f24003d
+type: Request
+parentId: fld_53854d987045426d8d942e3fbbb83c1f
+modified: 1632514539792
+created: 1632514539792
+url: http://localhost:{{port}}/api/seguimiento/seg-correspodencia/sec-hr-id/25
+name: listar seguimiento por hr id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627649110144.5078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

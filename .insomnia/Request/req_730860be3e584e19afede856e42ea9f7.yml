@@ -1,0 +1,37 @@
+_id: req_730860be3e584e19afede856e42ea9f7
+type: Request
+parentId: fld_e51616f89bc5469ba9f01c1d5c7d8be3
+modified: 1632514539765
+created: 1632514539765
+url: http://localhost:{{port}}/api/seguimiento/generar-cite/asignar-hr
+name: asignar_hr
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cite": "TyT REDSUR(i)/INF-M/037/2021",
+      "tipoPrioridad": "1",
+      "numeroFojas": "60",
+      "descripcionHojaRuta": "",
+      "observacionHojaRuta": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc6de61ab53b4cb7a427bb6a229815bf
+  - id: pair_15bd33aaa1544985b1698b9633c3e424
+    name: x-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW50aWRhZF9pZCI6MiwiaWF0IjoxNjMxMDI5NDA1LCJleHAiOjE2MzEwNDM4MDV9.nr2Eq-NyXJAGs7bHeT9zbeRxjU9UxjwW50DU8iPtVAw
+    description: ""
+authentication: {}
+metaSortKey: -1627531086983.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

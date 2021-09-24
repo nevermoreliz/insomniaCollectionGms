@@ -1,0 +1,21 @@
+_id: req_f7381e45bf27481e9ae66ed2e869aa99
+type: Request
+parentId: fld_53854d987045426d8d942e3fbbb83c1f
+modified: 1632514539795
+created: 1632514539795
+url: http://localhost:{{port}}/api/seguimiento/seg-correspodencia/cite-principal-hr/25
+name: listar detalle cite principal por  hr_id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1627648431850.4805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

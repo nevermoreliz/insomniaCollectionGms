@@ -1,0 +1,31 @@
+_id: req_92083c26541a4b869081de8192519a9b
+type: Request
+parentId: fld_fce52b7e53e1471ba7544f277052af37
+modified: 1632514562210
+created: 1632514562210
+url: http://localhost:{{port}}/api/auth/renew
+name: renovar_token
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_659caac3f2bd4968a6634577729d75c3
+    name: x-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW50aWRhZF9pZCI6MiwiaWF0IjoxNjI3MzkwMTUzLCJleHAiOjE2Mjc0MDQ1NTN9.gPMp3PPC8toC4mKSDjrSJXHCL9JCa94u1N9dlGw9snE
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_9db5e3f7155f41ee803c3ed00161564a
+authentication: {}
+metaSortKey: -1626373114275.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_89a609fb740a423a8289bc2076a983cd
+type: Request
+parentId: fld_6a1a3624f6194c4ab5710c653c9e4494
+modified: 1632514580259
+created: 1632514580259
+url: http://localhost:{{port}}/api/usuarios/
+name: nuevo_usuario
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nombre_usuario":"aqui",
+      "contrasenia":"Geo12345",
+      "persona_id":6,
+      "user_created": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_01343567f32049749e1cb96ee65c4633
+authentication: {}
+metaSortKey: -1626272808230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
